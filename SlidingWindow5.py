@@ -22,7 +22,6 @@ class SlidingWindow:
                         del unique[s[left]]
                     left += 1
             right += 1
-        print(sub)
 
 
 ans = SlidingWindow
